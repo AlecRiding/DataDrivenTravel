@@ -1,4 +1,4 @@
-name: Bug Report
+name: Bug Report v2
 description: File a bug report
 title: "[Bug]: "
 labels: ["bug", "triage"]
@@ -52,7 +52,7 @@ body:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-      - type: dropdown
+  - type: dropdown
     id: severity
     attributes:
       label: What is the severity of the bug?
